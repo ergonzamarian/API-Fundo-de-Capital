@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Ergon\\desktop\\dotnetCurso\\UnicivDemo\\Uniciv.Api\\Uniciv.Api.csproj",
+  "FilePath": "c:\\Users\\Ergon\\Documents\\MeusProjetos\\API-Fundo-de-Capital\\API-Fundo-de-Capital\\UnicivDemo\\Uniciv.Api\\Uniciv.Api.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -12,7 +12,41 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 1226202186,
+        "HashCode": -464171224,
+        "Kind": "ITagHelper",
+        "Name": "Microsoft.AspNetCore.Mvc.Razor.TagHelpers.BodyTagHelper",
+        "AssemblyName": "Microsoft.AspNetCore.Mvc.Razor",
+        "Documentation": "\n            <summary>\n            A <see cref=\"T:Microsoft.AspNetCore.Mvc.Razor.TagHelpers.TagHelperComponentTagHelper\" /> targeting the &lt;body&gt; HTML element.\n            </summary>\n        ",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "body"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Microsoft.AspNetCore.Mvc.Razor.TagHelpers.BodyTagHelper"
+        }
+      },
+      {
+        "HashCode": 120327763,
+        "Kind": "ITagHelper",
+        "Name": "Microsoft.AspNetCore.Mvc.Razor.TagHelpers.HeadTagHelper",
+        "AssemblyName": "Microsoft.AspNetCore.Mvc.Razor",
+        "Documentation": "\n            <summary>\n            A <see cref=\"T:Microsoft.AspNetCore.Mvc.Razor.TagHelpers.TagHelperComponentTagHelper\" /> targeting the &lt;head&gt; HTML element.\n            </summary>\n        ",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "head"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Microsoft.AspNetCore.Mvc.Razor.TagHelpers.HeadTagHelper"
+        }
+      },
+      {
+        "HashCode": 2113822061,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.Razor",
@@ -50,32 +84,13 @@
             ]
           },
           {
-            "TagName": "area",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "href",
-                "Value": "~/",
-                "ValueComparison": 2
-              }
-            ]
+            "TagName": "*"
           },
           {
             "TagName": "audio",
             "Attributes": [
               {
                 "Name": "src",
-                "Value": "~/",
-                "ValueComparison": 2
-              }
-            ]
-          },
-          {
-            "TagName": "base",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "href",
                 "Value": "~/",
                 "ValueComparison": 2
               }
@@ -112,17 +127,6 @@
             ]
           },
           {
-            "TagName": "embed",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "src",
-                "Value": "~/",
-                "ValueComparison": 2
-              }
-            ]
-          },
-          {
             "TagName": "form",
             "Attributes": [
               {
@@ -153,65 +157,10 @@
             ]
           },
           {
-            "TagName": "img",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "src",
-                "Value": "~/",
-                "ValueComparison": 2
-              }
-            ]
-          },
-          {
-            "TagName": "img",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "srcset",
-                "Value": "~/",
-                "ValueComparison": 2
-              }
-            ]
-          },
-          {
-            "TagName": "input",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "formaction",
-                "Value": "~/",
-                "ValueComparison": 2
-              }
-            ]
-          },
-          {
-            "TagName": "input",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "src",
-                "Value": "~/",
-                "ValueComparison": 2
-              }
-            ]
-          },
-          {
             "TagName": "ins",
             "Attributes": [
               {
                 "Name": "cite",
-                "Value": "~/",
-                "ValueComparison": 2
-              }
-            ]
-          },
-          {
-            "TagName": "link",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "href",
                 "Value": "~/",
                 "ValueComparison": 2
               }
@@ -268,30 +217,7 @@
             ]
           },
           {
-            "TagName": "source",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "src",
-                "Value": "~/",
-                "ValueComparison": 2
-              }
-            ]
-          },
-          {
-            "TagName": "source",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "srcset",
-                "Value": "~/",
-                "ValueComparison": 2
-              }
-            ]
-          },
-          {
-            "TagName": "track",
-            "TagStructure": 2,
+            "TagName": "video",
             "Attributes": [
               {
                 "Name": "src",
@@ -309,16 +235,6 @@
                 "ValueComparison": 2
               }
             ]
-          },
-          {
-            "TagName": "video",
-            "Attributes": [
-              {
-                "Name": "src",
-                "Value": "~/",
-                "ValueComparison": 2
-              }
-            ]
           }
         ],
         "Metadata": {
@@ -327,7 +243,7 @@
         }
       },
       {
-        "HashCode": -1351127177,
+        "HashCode": 1391904457,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -346,22 +262,6 @@
             "TagName": "a",
             "Attributes": [
               {
-                "Name": "asp-all-route-data"
-              }
-            ]
-          },
-          {
-            "TagName": "a",
-            "Attributes": [
-              {
-                "Name": "asp-area"
-              }
-            ]
-          },
-          {
-            "TagName": "a",
-            "Attributes": [
-              {
                 "Name": "asp-controller"
               }
             ]
@@ -370,15 +270,7 @@
             "TagName": "a",
             "Attributes": [
               {
-                "Name": "asp-fragment"
-              }
-            ]
-          },
-          {
-            "TagName": "a",
-            "Attributes": [
-              {
-                "Name": "asp-host"
+                "Name": "asp-area"
               }
             ]
           },
@@ -402,6 +294,22 @@
             "TagName": "a",
             "Attributes": [
               {
+                "Name": "asp-fragment"
+              }
+            ]
+          },
+          {
+            "TagName": "a",
+            "Attributes": [
+              {
+                "Name": "asp-host"
+              }
+            ]
+          },
+          {
+            "TagName": "a",
+            "Attributes": [
+              {
                 "Name": "asp-protocol"
               }
             ]
@@ -411,6 +319,14 @@
             "Attributes": [
               {
                 "Name": "asp-route"
+              }
+            ]
+          },
+          {
+            "TagName": "a",
+            "Attributes": [
+              {
+                "Name": "asp-all-route-data"
               }
             ]
           },
@@ -436,15 +352,6 @@
           },
           {
             "Kind": "ITagHelper",
-            "Name": "asp-area",
-            "TypeName": "System.String",
-            "Documentation": "\n            <summary>\n            The name of the area.\n            </summary>\n            <remarks>\n            Must be <c>null</c> if <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Route\" /> is non-<c>null</c>.\n            </remarks>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Area"
-            }
-          },
-          {
-            "Kind": "ITagHelper",
             "Name": "asp-controller",
             "TypeName": "System.String",
             "Documentation": "\n            <summary>\n            The name of the controller.\n            </summary>\n            <remarks>\n            Must be <c>null</c> if <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Route\" /> or <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Page\" /> is non-<c>null</c>.\n            </remarks>\n        ",
@@ -454,20 +361,11 @@
           },
           {
             "Kind": "ITagHelper",
-            "Name": "asp-fragment",
+            "Name": "asp-area",
             "TypeName": "System.String",
-            "Documentation": "\n            <summary>\n            The URL fragment name.\n            </summary>\n        ",
+            "Documentation": "\n            <summary>\n            The name of the area.\n            </summary>\n            <remarks>\n            Must be <c>null</c> if <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Route\" /> is non-<c>null</c>.\n            </remarks>\n        ",
             "Metadata": {
-              "Common.PropertyName": "Fragment"
-            }
-          },
-          {
-            "Kind": "ITagHelper",
-            "Name": "asp-host",
-            "TypeName": "System.String",
-            "Documentation": "\n            <summary>\n            The host name.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Host"
+              "Common.PropertyName": "Area"
             }
           },
           {
@@ -499,6 +397,24 @@
           },
           {
             "Kind": "ITagHelper",
+            "Name": "asp-host",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The host name.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Host"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-fragment",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The URL fragment name.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Fragment"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
             "Name": "asp-route",
             "TypeName": "System.String",
             "Documentation": "\n            <summary>\n            Name of the route.\n            </summary>\n            <remarks>\n            Must be <c>null</c> if one of <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Action\" />, <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Controller\" />, <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Area\" /> \n            or <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Page\" /> is non-<c>null</c>.\n            </remarks>\n        ",
@@ -510,9 +426,21 @@
             "Kind": "ITagHelper",
             "Name": "asp-all-route-data",
             "TypeName": "System.Collections.Generic.IDictionary<System.String, System.String>",
-            "IndexerNamePrefix": "asp-route-",
-            "IndexerTypeName": "System.String",
             "Documentation": "\n            <summary>\n            Additional parameters for the route.\n            </summary>\n        ",
+            "Diagnostics": [
+              {
+                "Id": "RZ3501",
+                "Severity": 3,
+                "Message": "Invalid tag helper bound property 'RouteValues' on tag helper 'Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper'. 'Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeNameAttribute.DictionaryAttributePrefix' must be null unless property type implements 'IDictionary<string, TValue>'.",
+                "Span": {
+                  "FilePath": null,
+                  "AbsoluteIndex": -1,
+                  "LineIndex": -1,
+                  "CharacterIndex": -1,
+                  "Length": 0
+                }
+              }
+            ],
             "Metadata": {
               "Common.PropertyName": "RouteValues"
             }
@@ -524,7 +452,7 @@
         }
       },
       {
-        "HashCode": -1458717291,
+        "HashCode": 257608516,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.CacheTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -539,46 +467,10 @@
           {
             "Kind": "ITagHelper",
             "Name": "priority",
-            "TypeName": "Microsoft.Extensions.Caching.Memory.CacheItemPriority?",
+            "TypeName": "System.Nullable<Microsoft.Extensions.Caching.Memory.CacheItemPriority>",
             "Documentation": "\n            <summary>\n            Gets or sets the <see cref=\"T:Microsoft.Extensions.Caching.Memory.CacheItemPriority\" /> policy for the cache entry.\n            </summary>\n        ",
             "Metadata": {
               "Common.PropertyName": "Priority"
-            }
-          },
-          {
-            "Kind": "ITagHelper",
-            "Name": "enabled",
-            "TypeName": "System.Boolean",
-            "Documentation": "\n            <summary>\n            Gets or sets the value which determines if the tag helper is enabled or not.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Enabled"
-            }
-          },
-          {
-            "Kind": "ITagHelper",
-            "Name": "expires-after",
-            "TypeName": "System.TimeSpan?",
-            "Documentation": "\n            <summary>\n            Gets or sets the duration, from the time the cache entry was added, when it should be evicted.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "ExpiresAfter"
-            }
-          },
-          {
-            "Kind": "ITagHelper",
-            "Name": "expires-on",
-            "TypeName": "System.DateTimeOffset?",
-            "Documentation": "\n            <summary>\n            Gets or sets the exact <see cref=\"T:System.DateTimeOffset\" /> the cache entry should be evicted.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "ExpiresOn"
-            }
-          },
-          {
-            "Kind": "ITagHelper",
-            "Name": "expires-sliding",
-            "TypeName": "System.TimeSpan?",
-            "Documentation": "\n            <summary>\n            Gets or sets the duration from last access that the cache entry should be evicted.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "ExpiresSliding"
             }
           },
           {
@@ -588,24 +480,6 @@
             "Documentation": "\n            <summary>\n            Gets or sets a <see cref=\"T:System.String\" /> to vary the cached result by.\n            </summary>\n        ",
             "Metadata": {
               "Common.PropertyName": "VaryBy"
-            }
-          },
-          {
-            "Kind": "ITagHelper",
-            "Name": "vary-by-cookie",
-            "TypeName": "System.String",
-            "Documentation": "\n            <summary>\n            Gets or sets a comma-delimited set of cookie names to vary the cached result by.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "VaryByCookie"
-            }
-          },
-          {
-            "Kind": "ITagHelper",
-            "Name": "vary-by-culture",
-            "TypeName": "System.Boolean",
-            "Documentation": "\n            <summary>\n            Gets or sets a value that determines if the cached result is to be varied by request culture.\n            <para>\n            Setting this to <c>true</c> would result in the result to be varied by <see cref=\"P:System.Globalization.CultureInfo.CurrentCulture\" />\n            and <see cref=\"P:System.Globalization.CultureInfo.CurrentUICulture\" />.\n            </para>\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "VaryByCulture"
             }
           },
           {
@@ -637,11 +511,65 @@
           },
           {
             "Kind": "ITagHelper",
+            "Name": "vary-by-cookie",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            Gets or sets a comma-delimited set of cookie names to vary the cached result by.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "VaryByCookie"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
             "Name": "vary-by-user",
             "TypeName": "System.Boolean",
             "Documentation": "\n            <summary>\n            Gets or sets a value that determines if the cached result is to be varied by the Identity for the logged in\n            <see cref=\"P:Microsoft.AspNetCore.Http.HttpContext.User\" />.\n            </summary>\n        ",
             "Metadata": {
               "Common.PropertyName": "VaryByUser"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "vary-by-culture",
+            "TypeName": "System.Boolean",
+            "Documentation": "\n            <summary>\n            Gets or sets a value that determines if the cached result is to be varied by request culture.\n            <para>\n            Setting this to <c>true</c> would result in the result to be varied by <see cref=\"P:System.Globalization.CultureInfo.CurrentCulture\" />\n            and <see cref=\"P:System.Globalization.CultureInfo.CurrentUICulture\" />.\n            </para>\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "VaryByCulture"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "expires-on",
+            "TypeName": "System.Nullable<System.DateTimeOffset>",
+            "Documentation": "\n            <summary>\n            Gets or sets the exact <see cref=\"T:System.DateTimeOffset\" /> the cache entry should be evicted.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "ExpiresOn"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "expires-after",
+            "TypeName": "System.Nullable<System.TimeSpan>",
+            "Documentation": "\n            <summary>\n            Gets or sets the duration, from the time the cache entry was added, when it should be evicted.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "ExpiresAfter"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "expires-sliding",
+            "TypeName": "System.Nullable<System.TimeSpan>",
+            "Documentation": "\n            <summary>\n            Gets or sets the duration from last access that the cache entry should be evicted.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "ExpiresSliding"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "enabled",
+            "TypeName": "System.Boolean",
+            "Documentation": "\n            <summary>\n            Gets or sets the value which determines if the tag helper is enabled or not.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Enabled"
             }
           }
         ],
@@ -651,62 +579,7 @@
         }
       },
       {
-        "HashCode": 1522536267,
-        "Kind": "ITagHelper",
-        "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ComponentTagHelper",
-        "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
-        "Documentation": "\n            <summary>\n            A <see cref=\"T:Microsoft.AspNetCore.Razor.TagHelpers.TagHelper\" /> that renders a Razor component.\n            </summary>\n        ",
-        "CaseSensitive": false,
-        "TagMatchingRules": [
-          {
-            "TagName": "component",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "type"
-              }
-            ]
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "ITagHelper",
-            "Name": "type",
-            "TypeName": "System.Type",
-            "Documentation": "\n            <summary>\n            Gets or sets the component type. This value is required.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "ComponentType"
-            }
-          },
-          {
-            "Kind": "ITagHelper",
-            "Name": "params",
-            "TypeName": "System.Collections.Generic.IDictionary<System.String, System.Object>",
-            "IndexerNamePrefix": "param-",
-            "IndexerTypeName": "System.Object",
-            "Documentation": "\n            <summary>\n            Gets or sets values for component parameters.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Parameters"
-            }
-          },
-          {
-            "Kind": "ITagHelper",
-            "Name": "render-mode",
-            "TypeName": "Microsoft.AspNetCore.Mvc.Rendering.RenderMode",
-            "IsEnum": true,
-            "Documentation": "\n            <summary>\n            Gets or sets the <see cref=\"T:Microsoft.AspNetCore.Mvc.Rendering.RenderMode\" />\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "RenderMode"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "ITagHelper",
-          "Common.TypeName": "Microsoft.AspNetCore.Mvc.TagHelpers.ComponentTagHelper"
-        }
-      },
-      {
-        "HashCode": 144209643,
+        "HashCode": -1116844393,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.DistributedCacheTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -734,65 +607,11 @@
           },
           {
             "Kind": "ITagHelper",
-            "Name": "enabled",
-            "TypeName": "System.Boolean",
-            "Documentation": "\n            <summary>\n            Gets or sets the value which determines if the tag helper is enabled or not.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Enabled"
-            }
-          },
-          {
-            "Kind": "ITagHelper",
-            "Name": "expires-after",
-            "TypeName": "System.TimeSpan?",
-            "Documentation": "\n            <summary>\n            Gets or sets the duration, from the time the cache entry was added, when it should be evicted.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "ExpiresAfter"
-            }
-          },
-          {
-            "Kind": "ITagHelper",
-            "Name": "expires-on",
-            "TypeName": "System.DateTimeOffset?",
-            "Documentation": "\n            <summary>\n            Gets or sets the exact <see cref=\"T:System.DateTimeOffset\" /> the cache entry should be evicted.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "ExpiresOn"
-            }
-          },
-          {
-            "Kind": "ITagHelper",
-            "Name": "expires-sliding",
-            "TypeName": "System.TimeSpan?",
-            "Documentation": "\n            <summary>\n            Gets or sets the duration from last access that the cache entry should be evicted.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "ExpiresSliding"
-            }
-          },
-          {
-            "Kind": "ITagHelper",
             "Name": "vary-by",
             "TypeName": "System.String",
             "Documentation": "\n            <summary>\n            Gets or sets a <see cref=\"T:System.String\" /> to vary the cached result by.\n            </summary>\n        ",
             "Metadata": {
               "Common.PropertyName": "VaryBy"
-            }
-          },
-          {
-            "Kind": "ITagHelper",
-            "Name": "vary-by-cookie",
-            "TypeName": "System.String",
-            "Documentation": "\n            <summary>\n            Gets or sets a comma-delimited set of cookie names to vary the cached result by.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "VaryByCookie"
-            }
-          },
-          {
-            "Kind": "ITagHelper",
-            "Name": "vary-by-culture",
-            "TypeName": "System.Boolean",
-            "Documentation": "\n            <summary>\n            Gets or sets a value that determines if the cached result is to be varied by request culture.\n            <para>\n            Setting this to <c>true</c> would result in the result to be varied by <see cref=\"P:System.Globalization.CultureInfo.CurrentCulture\" />\n            and <see cref=\"P:System.Globalization.CultureInfo.CurrentUICulture\" />.\n            </para>\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "VaryByCulture"
             }
           },
           {
@@ -824,11 +643,65 @@
           },
           {
             "Kind": "ITagHelper",
+            "Name": "vary-by-cookie",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            Gets or sets a comma-delimited set of cookie names to vary the cached result by.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "VaryByCookie"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
             "Name": "vary-by-user",
             "TypeName": "System.Boolean",
             "Documentation": "\n            <summary>\n            Gets or sets a value that determines if the cached result is to be varied by the Identity for the logged in\n            <see cref=\"P:Microsoft.AspNetCore.Http.HttpContext.User\" />.\n            </summary>\n        ",
             "Metadata": {
               "Common.PropertyName": "VaryByUser"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "vary-by-culture",
+            "TypeName": "System.Boolean",
+            "Documentation": "\n            <summary>\n            Gets or sets a value that determines if the cached result is to be varied by request culture.\n            <para>\n            Setting this to <c>true</c> would result in the result to be varied by <see cref=\"P:System.Globalization.CultureInfo.CurrentCulture\" />\n            and <see cref=\"P:System.Globalization.CultureInfo.CurrentUICulture\" />.\n            </para>\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "VaryByCulture"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "expires-on",
+            "TypeName": "System.Nullable<System.DateTimeOffset>",
+            "Documentation": "\n            <summary>\n            Gets or sets the exact <see cref=\"T:System.DateTimeOffset\" /> the cache entry should be evicted.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "ExpiresOn"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "expires-after",
+            "TypeName": "System.Nullable<System.TimeSpan>",
+            "Documentation": "\n            <summary>\n            Gets or sets the duration, from the time the cache entry was added, when it should be evicted.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "ExpiresAfter"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "expires-sliding",
+            "TypeName": "System.Nullable<System.TimeSpan>",
+            "Documentation": "\n            <summary>\n            Gets or sets the duration from last access that the cache entry should be evicted.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "ExpiresSliding"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "enabled",
+            "TypeName": "System.Boolean",
+            "Documentation": "\n            <summary>\n            Gets or sets the value which determines if the tag helper is enabled or not.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Enabled"
             }
           }
         ],
@@ -838,7 +711,7 @@
         }
       },
       {
-        "HashCode": -1277533294,
+        "HashCode": -164167365,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.EnvironmentTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -852,11 +725,11 @@
         "BoundAttributes": [
           {
             "Kind": "ITagHelper",
-            "Name": "exclude",
+            "Name": "names",
             "TypeName": "System.String",
-            "Documentation": "\n            <summary>\n            A comma separated list of environment names in which the content will not be rendered.\n            </summary>\n            <remarks>\n            The specified environment names are compared case insensitively to the current value of\n            <see cref=\"P:Microsoft.AspNetCore.Hosting.IHostingEnvironment.EnvironmentName\" />.\n            </remarks>\n        ",
+            "Documentation": "\n            <summary>\n            A comma separated list of environment names in which the content should be rendered.\n            If the current environment is also in the <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.EnvironmentTagHelper.Exclude\" /> list, the content will not be rendered.\n            </summary>\n            <remarks>\n            The specified environment names are compared case insensitively to the current value of\n            <see cref=\"P:Microsoft.AspNetCore.Hosting.IHostingEnvironment.EnvironmentName\" />.\n            </remarks>\n        ",
             "Metadata": {
-              "Common.PropertyName": "Exclude"
+              "Common.PropertyName": "Names"
             }
           },
           {
@@ -870,11 +743,11 @@
           },
           {
             "Kind": "ITagHelper",
-            "Name": "names",
+            "Name": "exclude",
             "TypeName": "System.String",
-            "Documentation": "\n            <summary>\n            A comma separated list of environment names in which the content should be rendered.\n            If the current environment is also in the <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.EnvironmentTagHelper.Exclude\" /> list, the content will not be rendered.\n            </summary>\n            <remarks>\n            The specified environment names are compared case insensitively to the current value of\n            <see cref=\"P:Microsoft.AspNetCore.Hosting.IHostingEnvironment.EnvironmentName\" />.\n            </remarks>\n        ",
+            "Documentation": "\n            <summary>\n            A comma separated list of environment names in which the content will not be rendered.\n            </summary>\n            <remarks>\n            The specified environment names are compared case insensitively to the current value of\n            <see cref=\"P:Microsoft.AspNetCore.Hosting.IHostingEnvironment.EnvironmentName\" />.\n            </remarks>\n        ",
             "Metadata": {
-              "Common.PropertyName": "Names"
+              "Common.PropertyName": "Exclude"
             }
           }
         ],
@@ -884,7 +757,7 @@
         }
       },
       {
-        "HashCode": -1995294384,
+        "HashCode": 1496859172,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.FormActionTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -903,22 +776,6 @@
             "TagName": "button",
             "Attributes": [
               {
-                "Name": "asp-all-route-data"
-              }
-            ]
-          },
-          {
-            "TagName": "button",
-            "Attributes": [
-              {
-                "Name": "asp-area"
-              }
-            ]
-          },
-          {
-            "TagName": "button",
-            "Attributes": [
-              {
                 "Name": "asp-controller"
               }
             ]
@@ -927,7 +784,7 @@
             "TagName": "button",
             "Attributes": [
               {
-                "Name": "asp-fragment"
+                "Name": "asp-area"
               }
             ]
           },
@@ -951,7 +808,23 @@
             "TagName": "button",
             "Attributes": [
               {
+                "Name": "asp-fragment"
+              }
+            ]
+          },
+          {
+            "TagName": "button",
+            "Attributes": [
+              {
                 "Name": "asp-route"
+              }
+            ]
+          },
+          {
+            "TagName": "button",
+            "Attributes": [
+              {
+                "Name": "asp-all-route-data"
               }
             ]
           },
@@ -965,258 +838,7 @@
             ]
           },
           {
-            "TagName": "input",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "type",
-                "Value": "image",
-                "ValueComparison": 1
-              },
-              {
-                "Name": "asp-action"
-              }
-            ]
-          },
-          {
-            "TagName": "input",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "type",
-                "Value": "image",
-                "ValueComparison": 1
-              },
-              {
-                "Name": "asp-all-route-data"
-              }
-            ]
-          },
-          {
-            "TagName": "input",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "type",
-                "Value": "image",
-                "ValueComparison": 1
-              },
-              {
-                "Name": "asp-area"
-              }
-            ]
-          },
-          {
-            "TagName": "input",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "type",
-                "Value": "image",
-                "ValueComparison": 1
-              },
-              {
-                "Name": "asp-controller"
-              }
-            ]
-          },
-          {
-            "TagName": "input",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "type",
-                "Value": "image",
-                "ValueComparison": 1
-              },
-              {
-                "Name": "asp-fragment"
-              }
-            ]
-          },
-          {
-            "TagName": "input",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "type",
-                "Value": "image",
-                "ValueComparison": 1
-              },
-              {
-                "Name": "asp-page"
-              }
-            ]
-          },
-          {
-            "TagName": "input",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "type",
-                "Value": "image",
-                "ValueComparison": 1
-              },
-              {
-                "Name": "asp-page-handler"
-              }
-            ]
-          },
-          {
-            "TagName": "input",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "type",
-                "Value": "image",
-                "ValueComparison": 1
-              },
-              {
-                "Name": "asp-route"
-              }
-            ]
-          },
-          {
-            "TagName": "input",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "type",
-                "Value": "image",
-                "ValueComparison": 1
-              },
-              {
-                "Name": "asp-route-",
-                "NameComparison": 1
-              }
-            ]
-          },
-          {
-            "TagName": "input",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "type",
-                "Value": "submit",
-                "ValueComparison": 1
-              },
-              {
-                "Name": "asp-action"
-              }
-            ]
-          },
-          {
-            "TagName": "input",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "type",
-                "Value": "submit",
-                "ValueComparison": 1
-              },
-              {
-                "Name": "asp-all-route-data"
-              }
-            ]
-          },
-          {
-            "TagName": "input",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "type",
-                "Value": "submit",
-                "ValueComparison": 1
-              },
-              {
-                "Name": "asp-area"
-              }
-            ]
-          },
-          {
-            "TagName": "input",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "type",
-                "Value": "submit",
-                "ValueComparison": 1
-              },
-              {
-                "Name": "asp-controller"
-              }
-            ]
-          },
-          {
-            "TagName": "input",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "type",
-                "Value": "submit",
-                "ValueComparison": 1
-              },
-              {
-                "Name": "asp-fragment"
-              }
-            ]
-          },
-          {
-            "TagName": "input",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "type",
-                "Value": "submit",
-                "ValueComparison": 1
-              },
-              {
-                "Name": "asp-page"
-              }
-            ]
-          },
-          {
-            "TagName": "input",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "type",
-                "Value": "submit",
-                "ValueComparison": 1
-              },
-              {
-                "Name": "asp-page-handler"
-              }
-            ]
-          },
-          {
-            "TagName": "input",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "type",
-                "Value": "submit",
-                "ValueComparison": 1
-              },
-              {
-                "Name": "asp-route"
-              }
-            ]
-          },
-          {
-            "TagName": "input",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "type",
-                "Value": "submit",
-                "ValueComparison": 1
-              },
-              {
-                "Name": "asp-route-",
-                "NameComparison": 1
-              }
-            ]
+            "TagName": "*"
           }
         ],
         "BoundAttributes": [
@@ -1231,15 +853,6 @@
           },
           {
             "Kind": "ITagHelper",
-            "Name": "asp-area",
-            "TypeName": "System.String",
-            "Documentation": "\n            <summary>\n            The name of the area.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Area"
-            }
-          },
-          {
-            "Kind": "ITagHelper",
             "Name": "asp-controller",
             "TypeName": "System.String",
             "Documentation": "\n            <summary>\n            The name of the controller.\n            </summary>\n        ",
@@ -1249,11 +862,11 @@
           },
           {
             "Kind": "ITagHelper",
-            "Name": "asp-fragment",
+            "Name": "asp-area",
             "TypeName": "System.String",
-            "Documentation": "\n            <summary>\n            Gets or sets the URL fragment.\n            </summary>\n        ",
+            "Documentation": "\n            <summary>\n            The name of the area.\n            </summary>\n        ",
             "Metadata": {
-              "Common.PropertyName": "Fragment"
+              "Common.PropertyName": "Area"
             }
           },
           {
@@ -1276,6 +889,15 @@
           },
           {
             "Kind": "ITagHelper",
+            "Name": "asp-fragment",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            Gets or sets the URL fragment.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Fragment"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
             "Name": "asp-route",
             "TypeName": "System.String",
             "Documentation": "\n            <summary>\n            Name of the route.\n            </summary>\n            <remarks>\n            Must be <c>null</c> if <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.FormActionTagHelper.Action\" /> or <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.FormActionTagHelper.Controller\" /> is non-<c>null</c>.\n            </remarks>\n        ",
@@ -1287,9 +909,21 @@
             "Kind": "ITagHelper",
             "Name": "asp-all-route-data",
             "TypeName": "System.Collections.Generic.IDictionary<System.String, System.String>",
-            "IndexerNamePrefix": "asp-route-",
-            "IndexerTypeName": "System.String",
             "Documentation": "\n            <summary>\n            Additional parameters for the route.\n            </summary>\n        ",
+            "Diagnostics": [
+              {
+                "Id": "RZ3501",
+                "Severity": 3,
+                "Message": "Invalid tag helper bound property 'RouteValues' on tag helper 'Microsoft.AspNetCore.Mvc.TagHelpers.FormActionTagHelper'. 'Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeNameAttribute.DictionaryAttributePrefix' must be null unless property type implements 'IDictionary<string, TValue>'.",
+                "Span": {
+                  "FilePath": null,
+                  "AbsoluteIndex": -1,
+                  "LineIndex": -1,
+                  "CharacterIndex": -1,
+                  "Length": 0
+                }
+              }
+            ],
             "Metadata": {
               "Common.PropertyName": "RouteValues"
             }
@@ -1301,7 +935,7 @@
         }
       },
       {
-        "HashCode": -1060491197,
+        "HashCode": -152489644,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1324,24 +958,6 @@
           },
           {
             "Kind": "ITagHelper",
-            "Name": "asp-antiforgery",
-            "TypeName": "System.Boolean?",
-            "Documentation": "\n            <summary>\n            Whether the antiforgery token should be generated.\n            </summary>\n            <value>Defaults to <c>false</c> if user provides an <c>action</c> attribute\n            or if the <c>method</c> is <see cref=\"F:Microsoft.AspNetCore.Mvc.Rendering.FormMethod.Get\" />; <c>true</c> otherwise.</value>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Antiforgery"
-            }
-          },
-          {
-            "Kind": "ITagHelper",
-            "Name": "asp-area",
-            "TypeName": "System.String",
-            "Documentation": "\n            <summary>\n            The name of the area.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Area"
-            }
-          },
-          {
-            "Kind": "ITagHelper",
             "Name": "asp-controller",
             "TypeName": "System.String",
             "Documentation": "\n            <summary>\n            The name of the controller.\n            </summary>\n        ",
@@ -1351,11 +967,11 @@
           },
           {
             "Kind": "ITagHelper",
-            "Name": "asp-fragment",
+            "Name": "asp-area",
             "TypeName": "System.String",
-            "Documentation": "\n            <summary>\n            Gets or sets the URL fragment.\n            </summary>\n        ",
+            "Documentation": "\n            <summary>\n            The name of the area.\n            </summary>\n        ",
             "Metadata": {
-              "Common.PropertyName": "Fragment"
+              "Common.PropertyName": "Area"
             }
           },
           {
@@ -1378,6 +994,24 @@
           },
           {
             "Kind": "ITagHelper",
+            "Name": "asp-antiforgery",
+            "TypeName": "System.Nullable<System.Boolean>",
+            "Documentation": "\n            <summary>\n            Whether the antiforgery token should be generated.\n            </summary>\n            <value>Defaults to <c>false</c> if user provides an <c>action</c> attribute\n            or if the <c>method</c> is <see cref=\"F:Microsoft.AspNetCore.Mvc.Rendering.FormMethod.Get\" />; <c>true</c> otherwise.</value>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Antiforgery"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-fragment",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            Gets or sets the URL fragment.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Fragment"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
             "Name": "asp-route",
             "TypeName": "System.String",
             "Documentation": "\n            <summary>\n            Name of the route.\n            </summary>\n            <remarks>\n            Must be <c>null</c> if <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper.Action\" /> or <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper.Controller\" /> is non-<c>null</c>.\n            </remarks>\n        ",
@@ -1387,11 +1021,32 @@
           },
           {
             "Kind": "ITagHelper",
+            "Name": "method",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The HTTP method to use.\n            </summary>\n            <remarks>Passed through to the generated HTML in all cases.</remarks>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Method"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
             "Name": "asp-all-route-data",
             "TypeName": "System.Collections.Generic.IDictionary<System.String, System.String>",
-            "IndexerNamePrefix": "asp-route-",
-            "IndexerTypeName": "System.String",
             "Documentation": "\n            <summary>\n            Additional parameters for the route.\n            </summary>\n        ",
+            "Diagnostics": [
+              {
+                "Id": "RZ3501",
+                "Severity": 3,
+                "Message": "Invalid tag helper bound property 'RouteValues' on tag helper 'Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper'. 'Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeNameAttribute.DictionaryAttributePrefix' must be null unless property type implements 'IDictionary<string, TValue>'.",
+                "Span": {
+                  "FilePath": null,
+                  "AbsoluteIndex": -1,
+                  "LineIndex": -1,
+                  "CharacterIndex": -1,
+                  "Length": 0
+                }
+              }
+            ],
             "Metadata": {
               "Common.PropertyName": "RouteValues"
             }
@@ -1403,7 +1058,7 @@
         }
       },
       {
-        "HashCode": -566530230,
+        "HashCode": -1313953685,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ImageTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1411,28 +1066,10 @@
         "CaseSensitive": false,
         "TagMatchingRules": [
           {
-            "TagName": "img",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "asp-append-version"
-              },
-              {
-                "Name": "src"
-              }
-            ]
+            "TagName": "*"
           }
         ],
         "BoundAttributes": [
-          {
-            "Kind": "ITagHelper",
-            "Name": "asp-append-version",
-            "TypeName": "System.Boolean",
-            "Documentation": "\n            <summary>\n            Value indicating if file version should be appended to the src urls.\n            </summary>\n            <remarks>\n            If <c>true</c> then a query string \"v\" with the encoded content of the file is added.\n            </remarks>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "AppendVersion"
-            }
-          },
           {
             "Kind": "ITagHelper",
             "Name": "src",
@@ -1440,6 +1077,15 @@
             "Documentation": "\n            <summary>\n            Source of the image.\n            </summary>\n            <remarks>\n            Passed through to the generated HTML in all cases.\n            </remarks>\n        ",
             "Metadata": {
               "Common.PropertyName": "Src"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-append-version",
+            "TypeName": "System.Boolean",
+            "Documentation": "\n            <summary>\n            Value indicating if file version should be appended to the src urls.\n            </summary>\n            <remarks>\n            If <c>true</c> then a query string \"v\" with the encoded content of the file is added.\n            </remarks>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "AppendVersion"
             }
           }
         ],
@@ -1449,7 +1095,7 @@
         }
       },
       {
-        "HashCode": 1984446477,
+        "HashCode": -200992117,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1457,13 +1103,7 @@
         "CaseSensitive": false,
         "TagMatchingRules": [
           {
-            "TagName": "input",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "asp-for"
-              }
-            ]
+            "TagName": "*"
           }
         ],
         "BoundAttributes": [
@@ -1552,7 +1192,7 @@
         }
       },
       {
-        "HashCode": -1682982493,
+        "HashCode": 995339913,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1560,95 +1200,35 @@
         "CaseSensitive": false,
         "TagMatchingRules": [
           {
-            "TagName": "link",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "asp-append-version"
-              }
-            ]
-          },
-          {
-            "TagName": "link",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "asp-fallback-href"
-              }
-            ]
-          },
-          {
-            "TagName": "link",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "asp-fallback-href-exclude"
-              }
-            ]
-          },
-          {
-            "TagName": "link",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "asp-fallback-href-include"
-              }
-            ]
-          },
-          {
-            "TagName": "link",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "asp-fallback-test-class"
-              }
-            ]
-          },
-          {
-            "TagName": "link",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "asp-fallback-test-property"
-              }
-            ]
-          },
-          {
-            "TagName": "link",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "asp-fallback-test-value"
-              }
-            ]
-          },
-          {
-            "TagName": "link",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "asp-href-exclude"
-              }
-            ]
-          },
-          {
-            "TagName": "link",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "asp-href-include"
-              }
-            ]
+            "TagName": "*"
           }
         ],
         "BoundAttributes": [
           {
             "Kind": "ITagHelper",
-            "Name": "asp-append-version",
-            "TypeName": "System.Boolean?",
-            "Documentation": "\n            <summary>\n            Value indicating if file version should be appended to the href urls.\n            </summary>\n            <remarks>\n            If <c>true</c> then a query string \"v\" with the encoded content of the file is added.\n            </remarks>\n        ",
+            "Name": "href",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            Address of the linked resource.\n            </summary>\n            <remarks>\n            Passed through to the generated HTML in all cases.\n            </remarks>\n        ",
             "Metadata": {
-              "Common.PropertyName": "AppendVersion"
+              "Common.PropertyName": "Href"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-href-include",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            A comma separated list of globbed file patterns of CSS stylesheets to load.\n            The glob patterns are assessed relative to the application's 'webroot' setting.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "HrefInclude"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-href-exclude",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            A comma separated list of globbed file patterns of CSS stylesheets to exclude from loading.\n            The glob patterns are assessed relative to the application's 'webroot' setting.\n            Must be used in conjunction with <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper.HrefInclude\" />.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "HrefExclude"
             }
           },
           {
@@ -1662,11 +1242,20 @@
           },
           {
             "Kind": "ITagHelper",
-            "Name": "asp-fallback-href-exclude",
-            "TypeName": "System.String",
-            "Documentation": "\n            <summary>\n            A comma separated list of globbed file patterns of CSS stylesheets to exclude from the fallback list, in\n            the case the primary one fails.\n            The glob patterns are assessed relative to the application's 'webroot' setting.\n            Must be used in conjunction with <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper.FallbackHrefInclude\" />.\n            </summary>\n        ",
+            "Name": "asp-suppress-fallback-integrity",
+            "TypeName": "System.Boolean",
+            "Documentation": "\n            <summary>\n            Boolean value that determines if an integrity hash will be compared with <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper.FallbackHref\" /> value.\n            </summary>\n        ",
             "Metadata": {
-              "Common.PropertyName": "FallbackHrefExclude"
+              "Common.PropertyName": "SuppressFallbackIntegrity"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-append-version",
+            "TypeName": "System.Nullable<System.Boolean>",
+            "Documentation": "\n            <summary>\n            Value indicating if file version should be appended to the href urls.\n            </summary>\n            <remarks>\n            If <c>true</c> then a query string \"v\" with the encoded content of the file is added.\n            </remarks>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "AppendVersion"
             }
           },
           {
@@ -1676,6 +1265,15 @@
             "Documentation": "\n            <summary>\n            A comma separated list of globbed file patterns of CSS stylesheets to fallback to in the case the primary\n            one fails.\n            The glob patterns are assessed relative to the application's 'webroot' setting.\n            </summary>\n        ",
             "Metadata": {
               "Common.PropertyName": "FallbackHrefInclude"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-fallback-href-exclude",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            A comma separated list of globbed file patterns of CSS stylesheets to exclude from the fallback list, in\n            the case the primary one fails.\n            The glob patterns are assessed relative to the application's 'webroot' setting.\n            Must be used in conjunction with <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper.FallbackHrefInclude\" />.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "FallbackHrefExclude"
             }
           },
           {
@@ -1703,42 +1301,6 @@
             "Documentation": "\n            <summary>\n            The CSS property value to use for the fallback test.\n            Must be used in conjunction with <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper.FallbackTestClass\" /> and <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper.FallbackTestProperty\" />,\n            and either <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper.FallbackHref\" /> or <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper.FallbackHrefInclude\" />.\n            </summary>\n        ",
             "Metadata": {
               "Common.PropertyName": "FallbackTestValue"
-            }
-          },
-          {
-            "Kind": "ITagHelper",
-            "Name": "href",
-            "TypeName": "System.String",
-            "Documentation": "\n            <summary>\n            Address of the linked resource.\n            </summary>\n            <remarks>\n            Passed through to the generated HTML in all cases.\n            </remarks>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Href"
-            }
-          },
-          {
-            "Kind": "ITagHelper",
-            "Name": "asp-href-exclude",
-            "TypeName": "System.String",
-            "Documentation": "\n            <summary>\n            A comma separated list of globbed file patterns of CSS stylesheets to exclude from loading.\n            The glob patterns are assessed relative to the application's 'webroot' setting.\n            Must be used in conjunction with <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper.HrefInclude\" />.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "HrefExclude"
-            }
-          },
-          {
-            "Kind": "ITagHelper",
-            "Name": "asp-href-include",
-            "TypeName": "System.String",
-            "Documentation": "\n            <summary>\n            A comma separated list of globbed file patterns of CSS stylesheets to load.\n            The glob patterns are assessed relative to the application's 'webroot' setting.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "HrefInclude"
-            }
-          },
-          {
-            "Kind": "ITagHelper",
-            "Name": "asp-suppress-fallback-integrity",
-            "TypeName": "System.Boolean",
-            "Documentation": "\n            <summary>\n            Boolean value that determines if an integrity hash will be compared with <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper.FallbackHref\" /> value.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "SuppressFallbackIntegrity"
             }
           }
         ],
@@ -1776,7 +1338,7 @@
         }
       },
       {
-        "HashCode": 2094333142,
+        "HashCode": -129322680,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1784,23 +1346,17 @@
         "CaseSensitive": false,
         "TagMatchingRules": [
           {
-            "TagName": "partial",
-            "TagStructure": 2,
-            "Attributes": [
-              {
-                "Name": "name"
-              }
-            ]
+            "TagName": "*"
           }
         ],
         "BoundAttributes": [
           {
             "Kind": "ITagHelper",
-            "Name": "fallback-name",
+            "Name": "name",
             "TypeName": "System.String",
-            "Documentation": "\n            <summary>\n            View to lookup if the view specified by <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper.Name\" /> cannot be located.\n            </summary>\n        ",
+            "Documentation": "\n            <summary>\n            The name or path of the partial view that is rendered to the response.\n            </summary>\n        ",
             "Metadata": {
-              "Common.PropertyName": "FallbackName"
+              "Common.PropertyName": "Name"
             }
           },
           {
@@ -1823,15 +1379,6 @@
           },
           {
             "Kind": "ITagHelper",
-            "Name": "name",
-            "TypeName": "System.String",
-            "Documentation": "\n            <summary>\n            The name or path of the partial view that is rendered to the response.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Name"
-            }
-          },
-          {
-            "Kind": "ITagHelper",
             "Name": "optional",
             "TypeName": "System.Boolean",
             "Documentation": "\n            <summary>\n            When optional, executing the tag helper will no-op if the view cannot be located. \n            Otherwise will throw stating the view could not be found.\n            </summary>\n        ",
@@ -1841,10 +1388,17 @@
           },
           {
             "Kind": "ITagHelper",
+            "Name": "fallback-name",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            View to lookup if the view specified by <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper.Name\" /> cannot be located.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "FallbackName"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
             "Name": "view-data",
             "TypeName": "Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary",
-            "IndexerNamePrefix": "view-data-",
-            "IndexerTypeName": "System.Object",
             "Documentation": "\n            <summary>\n            A <see cref=\"T:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary\" /> to pass into the partial view.\n            </summary>\n        ",
             "Metadata": {
               "Common.PropertyName": "ViewData"
@@ -1857,7 +1411,24 @@
         }
       },
       {
-        "HashCode": 187799352,
+        "HashCode": 98462134,
+        "Kind": "ITagHelper",
+        "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper",
+        "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
+        "Documentation": "\n            <summary>\n            <see cref=\"T:Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper\" /> implementation targeting all form elements\n            to generate content before the form end tag.\n            </summary>\n        ",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "form"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper"
+        }
+      },
+      {
+        "HashCode": 1563023216,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ScriptTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1868,39 +1439,7 @@
             "TagName": "script",
             "Attributes": [
               {
-                "Name": "asp-append-version"
-              }
-            ]
-          },
-          {
-            "TagName": "script",
-            "Attributes": [
-              {
-                "Name": "asp-fallback-src"
-              }
-            ]
-          },
-          {
-            "TagName": "script",
-            "Attributes": [
-              {
-                "Name": "asp-fallback-src-exclude"
-              }
-            ]
-          },
-          {
-            "TagName": "script",
-            "Attributes": [
-              {
-                "Name": "asp-fallback-src-include"
-              }
-            ]
-          },
-          {
-            "TagName": "script",
-            "Attributes": [
-              {
-                "Name": "asp-fallback-test"
+                "Name": "asp-src-include"
               }
             ]
           },
@@ -1916,7 +1455,39 @@
             "TagName": "script",
             "Attributes": [
               {
-                "Name": "asp-src-include"
+                "Name": "asp-fallback-src"
+              }
+            ]
+          },
+          {
+            "TagName": "script",
+            "Attributes": [
+              {
+                "Name": "asp-fallback-src-include"
+              }
+            ]
+          },
+          {
+            "TagName": "script",
+            "Attributes": [
+              {
+                "Name": "asp-fallback-src-exclude"
+              }
+            ]
+          },
+          {
+            "TagName": "script",
+            "Attributes": [
+              {
+                "Name": "asp-fallback-test"
+              }
+            ]
+          },
+          {
+            "TagName": "script",
+            "Attributes": [
+              {
+                "Name": "asp-append-version"
               }
             ]
           }
@@ -1924,65 +1495,11 @@
         "BoundAttributes": [
           {
             "Kind": "ITagHelper",
-            "Name": "asp-append-version",
-            "TypeName": "System.Boolean?",
-            "Documentation": "\n            <summary>\n            Value indicating if file version should be appended to src urls.\n            </summary>\n            <remarks>\n            A query string \"v\" with the encoded content of the file is added.\n            </remarks>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "AppendVersion"
-            }
-          },
-          {
-            "Kind": "ITagHelper",
-            "Name": "asp-fallback-src",
-            "TypeName": "System.String",
-            "Documentation": "\n            <summary>\n            The URL of a Script tag to fallback to in the case the primary one fails.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "FallbackSrc"
-            }
-          },
-          {
-            "Kind": "ITagHelper",
-            "Name": "asp-fallback-src-exclude",
-            "TypeName": "System.String",
-            "Documentation": "\n            <summary>\n            A comma separated list of globbed file patterns of JavaScript scripts to exclude from the fallback list, in\n            the case the primary one fails.\n            The glob patterns are assessed relative to the application's 'webroot' setting.\n            Must be used in conjunction with <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.ScriptTagHelper.FallbackSrcInclude\" />.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "FallbackSrcExclude"
-            }
-          },
-          {
-            "Kind": "ITagHelper",
-            "Name": "asp-fallback-src-include",
-            "TypeName": "System.String",
-            "Documentation": "\n            <summary>\n            A comma separated list of globbed file patterns of JavaScript scripts to fallback to in the case the\n            primary one fails.\n            The glob patterns are assessed relative to the application's 'webroot' setting.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "FallbackSrcInclude"
-            }
-          },
-          {
-            "Kind": "ITagHelper",
-            "Name": "asp-fallback-test",
-            "TypeName": "System.String",
-            "Documentation": "\n            <summary>\n            The script method defined in the primary script to use for the fallback test.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "FallbackTestExpression"
-            }
-          },
-          {
-            "Kind": "ITagHelper",
             "Name": "src",
             "TypeName": "System.String",
             "Documentation": "\n            <summary>\n            Address of the external script to use.\n            </summary>\n            <remarks>\n            Passed through to the generated HTML in all cases.\n            </remarks>\n        ",
             "Metadata": {
               "Common.PropertyName": "Src"
-            }
-          },
-          {
-            "Kind": "ITagHelper",
-            "Name": "asp-src-exclude",
-            "TypeName": "System.String",
-            "Documentation": "\n            <summary>\n            A comma separated list of globbed file patterns of JavaScript scripts to exclude from loading.\n            The glob patterns are assessed relative to the application's 'webroot' setting.\n            Must be used in conjunction with <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.ScriptTagHelper.SrcInclude\" />.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "SrcExclude"
             }
           },
           {
@@ -1996,11 +1513,65 @@
           },
           {
             "Kind": "ITagHelper",
+            "Name": "asp-src-exclude",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            A comma separated list of globbed file patterns of JavaScript scripts to exclude from loading.\n            The glob patterns are assessed relative to the application's 'webroot' setting.\n            Must be used in conjunction with <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.ScriptTagHelper.SrcInclude\" />.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "SrcExclude"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-fallback-src",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The URL of a Script tag to fallback to in the case the primary one fails.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "FallbackSrc"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
             "Name": "asp-suppress-fallback-integrity",
             "TypeName": "System.Boolean",
             "Documentation": "\n            <summary>\n            Boolean value that determines if an integrity hash will be compared with <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.ScriptTagHelper.FallbackSrc\" /> value.\n            </summary>\n        ",
             "Metadata": {
               "Common.PropertyName": "SuppressFallbackIntegrity"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-append-version",
+            "TypeName": "System.Nullable<System.Boolean>",
+            "Documentation": "\n            <summary>\n            Value indicating if file version should be appended to src urls.\n            </summary>\n            <remarks>\n            A query string \"v\" with the encoded content of the file is added.\n            </remarks>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "AppendVersion"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-fallback-src-include",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            A comma separated list of globbed file patterns of JavaScript scripts to fallback to in the case the\n            primary one fails.\n            The glob patterns are assessed relative to the application's 'webroot' setting.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "FallbackSrcInclude"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-fallback-src-exclude",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            A comma separated list of globbed file patterns of JavaScript scripts to exclude from the fallback list, in\n            the case the primary one fails.\n            The glob patterns are assessed relative to the application's 'webroot' setting.\n            Must be used in conjunction with <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.ScriptTagHelper.FallbackSrcInclude\" />.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "FallbackSrcExclude"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-fallback-test",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            The script method defined in the primary script to use for the fallback test.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "FallbackTestExpression"
             }
           }
         ],
@@ -2132,7 +1703,6 @@
             "Kind": "ITagHelper",
             "Name": "asp-validation-for",
             "TypeName": "Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExpression",
-            "Documentation": "\n            <summary>\n            Gets an expression to be evaluated against the current model.\n            </summary>\n        ",
             "Metadata": {
               "Common.PropertyName": "For"
             }
@@ -2165,7 +1735,6 @@
             "Kind": "ITagHelper",
             "Name": "asp-validation-summary",
             "TypeName": "Microsoft.AspNetCore.Mvc.Rendering.ValidationSummary",
-            "IsEnum": true,
             "Documentation": "\n            <summary>\n            If <see cref=\"F:Microsoft.AspNetCore.Mvc.Rendering.ValidationSummary.All\" /> or <see cref=\"F:Microsoft.AspNetCore.Mvc.Rendering.ValidationSummary.ModelOnly\" />, appends a validation\n            summary. Otherwise (<see cref=\"F:Microsoft.AspNetCore.Mvc.Rendering.ValidationSummary.None\" />, the default), this tag helper does nothing.\n            </summary>\n            <exception cref=\"T:System.ArgumentException\">\n            Thrown if setter is called with an undefined <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.ValidationSummaryTagHelper.ValidationSummary\" /> value e.g.\n            <c>(ValidationSummary)23</c>.\n            </exception>\n        ",
             "Metadata": {
               "Common.PropertyName": "ValidationSummary"
